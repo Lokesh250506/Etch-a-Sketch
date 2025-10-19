@@ -1,0 +1,118 @@
+body {
+    background-image : url("https://img.freepik.com/premium-photo/pretty-background-images-background_1179130-831445.jpg?semt=ais_hybrid&w=740&q=80");
+    background-position : center;
+    background-size : cover;
+    background-repeat : no-repeat;
+}
+
+.big {
+    display : flex;
+    flex-direction : row;
+    align-items : center;
+    
+}
+.container {
+    border-color : black;
+    width : 752px;
+    flex-wrap : wrap;
+    height : 720px;
+    border-width : 15px;
+    display : flex;
+    margin-left : 150px;
+
+}
+
+.container button{
+    box-sizing : border-box;
+    background-color : lightblue;
+    border : 0px;
+}
+
+
+h1 {
+    color : navy;
+    margin-top : 50px;
+    margin-left : 200px;
+    font-size : 60px;
+}
+
+.obj1 {
+    margin-left : 100px;
+}
+
+.clear {
+
+    width : 100px;
+    height : 40px;
+    font-size : 25px;
+    font-style : italic;
+    color : blue;
+    margin-top : 50px;
+    margin-left : 200px;
+
+}
+.colors {
+    display : flex;
+    flex-wrap : wrap;
+    width : 120px;
+    border-color : solid black;
+    margin-left : 200px;
+    margin-top : 50px;
+}
+.colors button {
+    height : 40px;
+    width : 40px;
+    
+}
+.violet {
+    background-color : violet;
+}
+
+.indigo {
+    background-color : indigo;
+}
+
+.blue {
+    background-color : blue;
+}
+
+.green {
+    background-color : green;
+}
+
+.yellow {
+    background-color : yellow;
+}
+
+.orange {
+    background-color : orange;
+}
+
+.red {
+    background-color : red;
+}
+
+.black {
+    background-color : black;
+}
+
+.rgb {
+        background: linear-gradient(
+        90deg,
+        #ff0000, /* red */
+        #ff7f00, /* orange */
+        #ffff00, /* yellow */
+        #00ff00, /* green */
+        #0000ff, /* blue */
+        #4b0082, /* indigo */
+        #8b00ff  /* violet */
+    );
+}
+
+.para {
+    font-size : 40px;
+    margin-top : -200px;
+    font-family : Georgia, sans-serif;
+    color : indigo;
+}
+
